@@ -53,10 +53,6 @@ foreach (var result in results)
         int selectedElement = sourceArray[i];
         int indexSelectedElement = i;
 
-        countCompare++;
-        if (i == 0)
-            continue;
-
         for (int j = i; j > 0; j--)
         {
             countCompare++;
@@ -93,10 +89,6 @@ foreach (var result in results)
             if (sourceArray[j] < sourceArray[minIndex])
                 minIndex = j;
         }
-
-        countCompare++;
-        if (minIndex == i)
-            continue;
 
         SwapValues(ref sourceArray, i, minIndex);
         countSwap++;
