@@ -74,9 +74,6 @@ foreach (var result in results)
     Console.WriteLine("Результат сортировки прямыми включениями:");
     PrintArray(sourceArray);
 
-    Console.WriteLine($"Число сравнений: {countCompare}");
-    Console.WriteLine($"Число перестановок: {countSwap}\r\n");
-
     return (countCompare, countSwap);
 }
 
@@ -110,9 +107,6 @@ foreach (var result in results)
     Console.WriteLine("Результат сортировки прямым выбором:");
     PrintArray(sourceArray);
 
-    Console.WriteLine($"Число сравнений: {countCompare}");
-    Console.WriteLine($"Число перестановок: {countSwap}\r\n");
-
     return (countCompare, countSwap);
 }
 
@@ -137,9 +131,6 @@ foreach (var result in results)
 
     Console.WriteLine("Результат сортировки пузырьком:");
     PrintArray(sourceArray);
-
-    Console.WriteLine($"Число сравнений: {countCompare}");
-    Console.WriteLine($"Число перестановок: {countSwap}\r\n");
 
     return (countCompare, countSwap);
 }
@@ -172,9 +163,6 @@ foreach (var result in results)
 
     Console.WriteLine("Результат сортировки Шелла:");
     PrintArray(sourceArray);
-
-    Console.WriteLine($"Число сравнений: {countCompare}");
-    Console.WriteLine($"Число перестановок: {countSwap}\r\n");
 
     return (countCompare, countSwap);
 }
